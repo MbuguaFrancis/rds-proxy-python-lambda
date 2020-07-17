@@ -10,4 +10,7 @@ The lambda function depends on the following environment variables to be defined
 * Database Port
 * The database username
 
+The lambda also uses a lambda layer with pymysql installed. Run the below command to install pymysql
+> pip install pymysql
+
 **N.B** Remember to edit the query in line 52
