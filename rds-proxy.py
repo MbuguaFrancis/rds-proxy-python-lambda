@@ -49,7 +49,7 @@ def lambda_handler(event, context):
     # TODO implement
     conn = db_ops()
     cursor = conn.cursor()
-    query = "SELECT count(*) FROM customer_entity"
+    query = "SELECT count(*) FROM `Your_Table` Where `condition`"
     cursor.execute(query)
     results = cursor.fetchmany(4)
     
